@@ -31,6 +31,14 @@ class LambdaDemo extends Component {
   }
 }
 
+class MainNav from Component {
+  constructor(props) {
+    super(props)
+    this.message = {msg}
+  }
+  
+}
+
 class App extends Component {
   render() {
     return (
